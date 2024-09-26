@@ -8,7 +8,7 @@ class GetStartedButton extends StatelessWidget {
   const GetStartedButton({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)  {
     return TextButton(
       onPressed: () {
         context.pushNamed(Routes.loginScreen);
